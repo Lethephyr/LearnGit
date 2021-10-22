@@ -35,3 +35,21 @@ $ git commit -m <message>
 $ git status
 ```
 
+查看上次如何修改的file
+
+```cmd
+$ git diff <file>
+```
+
+
+
+
+
+#### 上传到Github
+
+```cmd
+$ git remote add prigin URL.git
+$ git push -u origin master
+$ git push origin master
+```
+
